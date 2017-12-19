@@ -13,7 +13,8 @@ public class App
         
         Operations operations = new Operations();
         long total = operations.additionner(3, 2);
-        System.out.println( "total : " + total );
+        long total2 = operations.multiplier(5, 2);
+        System.out.println( "total : " + total + "total2 : " + total2);
 
     }
 
