@@ -12,9 +12,9 @@ public class App
         System.out.println( "Hello World!" );
         
         Operations operations = new Operations();
-        long tootal = operations.additionner(3, 2);
-        long tootal2 = operations.multiplier(5, 2);
-        System.out.println( "total : " + tootal + "total2 : " + tootal2);
+        long total = operations.additionner(3, 2);
+        long total2 = operations.multiplier(5, 2);
+        System.out.println( "total : " + total + "total2 : " + total2);
 
     }
 
